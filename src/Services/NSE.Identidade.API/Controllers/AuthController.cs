@@ -13,9 +13,8 @@ using System.Threading.Tasks;
 
 namespace NSE.Identidade.API.Controllers
 {
-    [ApiController]
     [Route("api/identity")]
-    public class AuthController : Controller
+    public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
@@ -34,7 +33,7 @@ namespace NSE.Identidade.API.Controllers
         [HttpPost("new-account")]
         public async Task<IActionResult> Register(UserRegister userRegister)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var user = new IdentityUser
             {
@@ -45,25 +44,34 @@ namespace NSE.Identidade.API.Controllers
 
             var result = await _userManager.CreateAsync(user, userRegister.Password);
 
-            if (result.Succeeded)
+            if (result.Succeeded) return CustomResponse(await GenerateJwt(userRegister.Email));
+
+            foreach (var error in result.Errors)
             {
-                await _signInManager.SignInAsync(user, false);
-                return Ok(await GenerateJwt(userRegister.Email));
+                AddProcessErrors(error.Description);
             }
 
-            return BadRequest();
+            return CustomResponse();
         }
 
         [HttpPost("authentication")]
         public async Task<IActionResult> Login(UserLogin userLogin)
         {
-            if (!ModelState.IsValid) return BadRequest();
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
 
             var result =  await _signInManager.PasswordSignInAsync(userLogin.Email, userLogin.Password , false, true);
 
-            if (result.Succeeded) return Ok(await GenerateJwt(userLogin.Email));
-
-            return BadRequest();
+            if (result.Succeeded) return CustomResponse(await GenerateJwt(userLogin.Email));
+            else if (result.IsLockedOut)
+            {
+                AddProcessErrors("User temporarily blocked by invalid tentatives");
+                return CustomResponse();
+            }
+            else
+            {
+                AddProcessErrors("User or password incorrect");
+                return CustomResponse();
+            }
         }
 
         private async Task<UserResponseLogin> GenerateJwt(string email)
