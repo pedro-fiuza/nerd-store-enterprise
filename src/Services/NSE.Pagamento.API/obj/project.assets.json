@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+      "projectUniqueName": "C:\\Repo\\nerd-store-enterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
       "projectName": "NSE.Pagamento.API",
-      "projectPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+      "projectPath": "C:\\Repo\\nerd-store-enterprise\\src\\Services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
       "packagesPath": "C:\\Users\\devpe\\.nuget\\packages\\",
-      "outputPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\Services\\NSE.Pagamento.API\\obj\\",
+      "outputPath": "C:\\Repo\\nerd-store-enterprise\\src\\Services\\NSE.Pagamento.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\devpe\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "scdzVyzVGTua6hzhN2e1w0KFWXBJwbLE2aNOx01v1675Fve766/2oAUylNMN1Xo3mrUs4mvlztyorrkrNKJCZg==",
+  "dgSpecHash": "rR8vKWVG2blJmFf9MHrencQJWM/XvW/MovyXI9CYv4jDBS+zUdvp9GdDNBTlzxdZoPOHTb87CMzW6Cxc2UiY2w==",
   "success": true,
-  "projectFilePath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\Web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
+  "projectFilePath": "C:\\Repo\\nerd-store-enterprise\\src\\Web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devpe\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.5\\microsoft.aspnetcore.mvc.razor.extensions.5.0.5.nupkg.sha512",
     "C:\\Users\\devpe\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.5\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.5.nupkg.sha512",

@@ -5952,11 +5952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+      "projectUniqueName": "C:\\Repo\\nerd-store-enterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
       "projectName": "NSE.Identidade.API",
-      "projectPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+      "projectPath": "C:\\Repo\\nerd-store-enterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
       "packagesPath": "C:\\Users\\devpe\\.nuget\\packages\\",
-      "outputPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\obj\\",
+      "outputPath": "C:\\Repo\\nerd-store-enterprise\\src\\services\\NSE.Identidade.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\devpe\\AppData\\Roaming\\NuGet\\NuGet.Config",

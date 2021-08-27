@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj": {}
+    "C:\\Repo\\nerd-store-enterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj": {}
   },
   "projects": {
-    "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj": {
+    "C:\\Repo\\nerd-store-enterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
+        "projectUniqueName": "C:\\Repo\\nerd-store-enterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
         "projectName": "NSE.Core",
-        "projectPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
+        "projectPath": "C:\\Repo\\nerd-store-enterprise\\src\\BuildingBlocks\\NSE.Core\\NSE.Core.csproj",
         "packagesPath": "C:\\Users\\devpe\\.nuget\\packages\\",
-        "outputPath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\BuildingBlocks\\NSE.Core\\obj\\",
+        "outputPath": "C:\\Repo\\nerd-store-enterprise\\src\\BuildingBlocks\\NSE.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\devpe\\AppData\\Roaming\\NuGet\\NuGet.Config",

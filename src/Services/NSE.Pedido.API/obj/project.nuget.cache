@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SJYzUaF6mHvHoDAsp7dpGdr9mxDhffXvpskjOaebf7sMZDFfhQIxBcI/yyEL1xwK5hECgvmHQDgGTJ5fhIi0ig==",
+  "dgSpecHash": "cge6DQ/FYZo+YNmfPe7NVglT5OriNRU8/IWASrV5/kug8Y7eYw6vg+jl1dFFalekJJwHRIn3Zgj8vNtWkmK5mw==",
   "success": true,
-  "projectFilePath": "C:\\enterpriseApp\\NerdStoreEnterprise\\src\\Services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "projectFilePath": "C:\\Repo\\nerd-store-enterprise\\src\\Services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devpe\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\devpe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
